@@ -70,7 +70,7 @@
     _lblTitle.text = [@"Title: " stringByAppendingString:preview.title];
     [_lblDescription setText:preview.plot];
     
-    _imgPoster.image = [UIImage imageNamed:@"newapp-icon"];
+    _imgPoster.image = [UIImage imageNamed:@"movie1"];
 
     // download the image asynchronously
     if (![preview.poster  isEqual: @"N/A"]) {
