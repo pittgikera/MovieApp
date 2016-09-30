@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _searchBar.text =@"star wars";
+    _searchBar.text =@"suicide squad";
     _searchBar.backgroundColor = [UIColor redColor];
     [_searchBar isFirstResponder];
     
@@ -118,7 +118,7 @@
     cell.textLabel.text = film.title;
     [cell.detailTextLabel setText:[[[film.type stringByAppendingString:@" ("] stringByAppendingString:film.year] stringByAppendingString:@")"]];
     
-    cell.imageView.image = [UIImage imageNamed:@"newapp-icon"];
+    cell.imageView.image = [UIImage imageNamed:@"movie1"];
 
     // download the image asynchronously
     if (![film.poster  isEqual: @"N/A"]) {
